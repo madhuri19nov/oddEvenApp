@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.counter-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 15px;
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.count-text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.increment-btn {
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 7px;
+  width: 150px;
+}
+
+.footnote {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
